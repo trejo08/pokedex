@@ -105,8 +105,7 @@ public class PokemonDetailFragment extends Fragment {
             }
         }else if (id == R.id.action_call){
             String url = "tel:70418755";
-
-            Intent intent = new Intent(Intent.ACTION_CALL, Uri.parse(url));
+            Intent intent = new Intent(Intent.ACTION_CALL, Uri.parse(url)); // TO Start an cellphone call
             startActivity(intent);
         }
         return super.onOptionsItemSelected(item);
