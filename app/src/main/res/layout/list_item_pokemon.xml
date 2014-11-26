@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <ImageView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="64dp"
+        android:layout_height="65dp"
+        android:src="@drawable/ic_launcher"
+        android:id="@+id/image_pokemon"
+        android:padding="5dp"
+        android:background="#BCBCBC"
+        android:scaleType="centerCrop"/>
+
+    <TextView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="65dp"
+        android:textSize="22dp"
+        android:layout_marginLeft="10dp"
+        android:textColor="#3299BB"
+        android:minHeight="?android:attr/listPreferredItemHeight"
+        android:gravity="center_vertical"
+        android:id="@+id/list_item_pokemon_textview"/>
+
+</LinearLayout>
+
+
+
