@@ -14,6 +14,7 @@ import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
+import android.widget.ProgressBar;
 import android.widget.TextView;
 import android.support.v7.widget.ShareActionProvider;
 
@@ -29,6 +30,9 @@ public class PokemonDetailFragment extends Fragment {
     private String mnombre;
     private String mavatar;
     private ShareActionProvider mShareActionProvider;
+
+    /*private ProgressBar pb;
+    private ImageDownloader mDownloader;*/
 
 
     public static PokemonDetailFragment newInstance(Pokemon pokemon) {

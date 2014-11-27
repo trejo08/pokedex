@@ -3,6 +3,7 @@
     package="net.gr33nme3dia.alex.pokedex" >
     <uses-permission android:name="android.permission.INTERNET"></uses-permission>
     <uses-permission android:name="android.permission.CALL_PHONE"></uses-permission>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <application
         android:name=".PokedexApplication"
         android:allowBackup="true"

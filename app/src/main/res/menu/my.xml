@@ -20,4 +20,10 @@
         android:title="call"
         android:icon="@android:drawable/ic_dialog_dialer"
         app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/action_download"
+        android:title="Download"
+        android:icon="@android:drawable/ic_menu_save"
+        app:showAsAction="ifRoom" />
 </menu>
