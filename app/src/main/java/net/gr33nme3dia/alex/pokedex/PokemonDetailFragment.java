@@ -31,8 +31,8 @@ public class PokemonDetailFragment extends Fragment {
     private String mavatar;
     private ShareActionProvider mShareActionProvider;
 
-    /*private ProgressBar pb;
-    private ImageDownloader mDownloader;*/
+    private ProgressBar pb;
+    private ImageDownloader mDownloader;
 
 
     public static PokemonDetailFragment newInstance(Pokemon pokemon) {
